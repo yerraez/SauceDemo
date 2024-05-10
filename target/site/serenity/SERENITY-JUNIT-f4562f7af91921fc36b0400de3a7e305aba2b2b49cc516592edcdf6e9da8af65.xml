@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="1" name="Successful login with username and password" skipped="0" tests="3" time="19.98" timestamp="2024-05-10 05:37:32"><testcase name="Login into the website with correct username and password"/><testcase name="Add two products to the shop car and checkout"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+com.saucedemo.ec.steps.SuccessfulLoginStep.SuccessfulLoginStep.clickBtnAddBackpack(SuccessfulLoginStep.java:22)
+com.saucedemo.ec.definitions.AddProductsShoppingCart.addProducts(AddProductsShoppingCart.java:17)
+</system-err></testcase><testcase name="Complete sales form with user information"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.15.0', revision: '1d14b5521b'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4.1', java.version: '20.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4.1', java.version: '20.0.1'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4.1', java.version: '20.0.1'
+Driver info: driver.version: unknown
+com.saucedemo.ec.steps.SuccessfulLoginStep.SuccessfulLoginStep.enterfirstName(SuccessfulLoginStep.java:39)
+com.saucedemo.ec.definitions.CompleteOrder.userCompleteFormFilds(CompleteOrder.java:20)
+</system-err></testcase></testsuite>
